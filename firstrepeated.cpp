@@ -6,10 +6,9 @@ void printFirstRepeating(int arr[], int n)
     set<int> myset;
     for (int i = n - 1; i >= 0; i--)
     {
-        if (myset.find(arr[i]) != myset.end())
+      if (myset.find(arr[i]) != myset.end())
             min = i;
- 
-        else   
+      else   
             myset.insert(arr[i]);
     }
     if (min != -1)
