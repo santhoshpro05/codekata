@@ -22,13 +22,11 @@ using namespace std;
       int m = strlen(X), n = strlen(Y);
     int len_LCS = lcs(X, Y, m, n);
          return costX * (m - len_LCS) +
-           costY * (n - len_LCS);
-}
+           costY * (n - len_LCS);}
  int main()
 {
     char X[] = "arc";
     char Y[] = "bug";
     cout << "Minimum Cost to make two strings "
          << " identical is = " << findMinCost(X, Y, 1, 2);
-    return 0;
-}
+    return 0;}
