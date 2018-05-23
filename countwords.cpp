@@ -7,7 +7,7 @@ int main()
   cin>>a;
     for(i = 1;a[i]!='\0';i++)
     {
-        if(!isspace (str[i]))
+        if(!isspace (a[i]))
         
         count++;
       
