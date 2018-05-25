@@ -6,12 +6,11 @@ int n;
 cin>>n;
 if(n!=0&&(n&(n-1))==0)
 {
-    cout<<"power of two";
+    cout<<"yes";
 }
-
-    else
+     else
     {
-    cout<<"non power of two";
+    cout<<"no";
 }
  return 0;
     }
