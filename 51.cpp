@@ -12,12 +12,12 @@ int main()
 	    n=n/10;
 	}
 
-int	neww=rev;
-		while(neww>0)
+int	n1=rev;
+		while(n1>0)
 	{
-	    rem1=neww%10;
+	    rem1=n1%10;
 	  cout<<rem1<<" ";
-	    neww=neww/10;
+	    n1=n1/10;
 	}
 	return 0;
 }
